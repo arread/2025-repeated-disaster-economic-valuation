@@ -128,5 +128,4 @@ Run scripts in this order:
 3. `Imputation.do` - (run in STATA) imputes missing values due to geography shifts in 1970-1980
 4. `Matching.R` - Obtains the matched control sample used in analysis
 6. `Trimming.R` - Generates the final data frame for analysis
-5. `Analysis.R` - Runs the difference-in-difference models used in analysis
-6. `Tables.R` - Generates the descriptive/summary tables used in the paper
+5. `Analysis.R` - Shows how to run the difference-in-difference models used in analysis
