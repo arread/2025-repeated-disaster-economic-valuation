@@ -2,9 +2,9 @@
 Paper citation: Read, A. (2025). Repeated disaster and the economic valuation of place: Temporal dynamics of tornado effects on housing prices in the United States, 1980–2010. Population and Environment, 47(3), 29. https://doi.org/10.1007/s11111-025-00502-w
 
 ## Notes
-I am publishing this code as-is for the moment (July 2025), meaning that there are places where the code could be refined and commented out more robustly. I will go back through and add comments and reformat some things for clarity at a later date; however, I will not be making any revisions to this code to improve efficiency--the point of this repository is to show what I *did* to produce the paper. Cleaner, more efficient versions of the code will be published under a different repository in the future as part of work I'm doing to extend and add to the analyses in this paper (for other projects).
+I am publishing this code as-is (July 2025), meaning that there are places where the code could be refined and commented out more robustly. I may add comments at a later date, but the point of this repository is to show what I did to produce the paper, so I will not be editing the code otherwise. Cleaner, more efficient versions of the code will be published under other repositories in the future as part of work I'm doing to extend and add to the analyses in this paper (for other projects).
 
-Please also note that this code was originally run in January 2023; package updates (especially to the `did` package) may impact performance when trying to run this code in 2025 or after. For a true replication, use a late 2022 version of the `did` package; for new projects inspired by this one, I recommend using the most up to date packages and making adjustments to the code as necessary, because newer versions of the `did` package make these models much less computationally intensive to run.
+Please also note that this code was originally run in January 2023; I used a late 2022 version of the `did` package.
 
 ## Data Sources
 - Census 1970-2010; pulled from Social Explorer (harmonized to 2010 boundaries)
